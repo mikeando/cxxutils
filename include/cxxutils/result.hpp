@@ -1,14 +1,10 @@
 #pragma once
 
-#include "cxx14shims.h"
+#include "cxxutils/cxx14shims.hpp"
 #include <string>
 #include <assert.h>
 
-#include "optional.h"
-
-//This is a copy of MDX/util/try.h
-//Modified as I like the name Result better.
-
+#include "optional.hpp"
 
 class ResultException {
 public:
